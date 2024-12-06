@@ -8,18 +8,16 @@ sass:
   style: compressed
 
 # Development settings
-host: 0.0.0.0
+host: 127.0.0.1
 port: 9000
 
-author: "Willy Nolan"
-title: "Willy Nolan"
+author: "waki-taki"
+title: "waki-taki"
 faviconcolor: "#2cdad7"
 keywords: "Software Engineering, Interactive Engineering"
 
-instagram: "https://www.instagram.com/computersarecool/"
-email: "willy@willynolan.com"
-github: "https://github.com/computersarecool"
-linkedin: "https://www.linkedin.com/in/willynolan/"
+instagram: "https://www.instagram.com/waki-taki/"
+email: "contact@waki-taki.com"
 
 collections:
   projects:
