@@ -89,8 +89,7 @@ nav {
 header {
     align-content: end;
     grid-row: 6;
-    grid-column: 2 / 4;
-    text-transform: lowercase;
+    grid-column: 1 / 5;
 }
 
 main {
@@ -98,10 +97,24 @@ main {
 }
 
 nav {
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
+    grid-row: 5;
     display: grid;
-    align-items: end;
     transform: rotate(4deg);
+}
+
+nav li:first-of-type {
+    background: linear-gradient(to right, #ff15fb, #60e1ed, #15ffec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px #0aeeff);
+}
+
+nav li:last-of-type {
+    background: linear-gradient(to right, #15ffec, #15ffec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px #ee00ff);
 }
 
 .site-links {
@@ -110,7 +123,6 @@ nav {
 }
 
 .contact-links {
-    grid-column: 4;
     line-height: 1.64;
 }
 
@@ -120,13 +132,16 @@ nav {
 }
 
 .callout {
-    font-size: var(--font-size-callout);
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: var(--font-size-main-smallest);
     text-align: center;
     margin-bottom: 20px;
+    color: var(--color-white);
 }
 
 .second-callout {
     font-size: var(--font-size-callout-small);
+    color: var(--color-white);
 }
 
 .video-wrapper {

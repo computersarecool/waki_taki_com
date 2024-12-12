@@ -8,16 +8,16 @@ sass:
   style: compressed
 
 # Development settings
-host: 127.0.0.1
-port: 9000
+host: 0.0.0.0
+port: 9001
 
-author: "waki-taki"
-title: "waki-taki"
+author: "WAKI-TAKI"
+title: "WAKI-TAKI"
 faviconcolor: "#2cdad7"
-keywords: "Software Engineering, Interactive Engineering"
+keywords: "Projection Mapping, Art, Music"
 
 instagram: "https://www.instagram.com/waki-taki/"
-email: "contact@waki-taki.com"
+email: "contact@WAKI-TAKI.com"
 
 collections:
   projects:

@@ -7,5 +7,11 @@ meta:
     keywords: Willy Nolan, computer graphics, interactivity, computer programming
     description: Willy Nolan's website
 ---
-<main class="{{ page.class }}">
-</main>
+<img class="bg" src="assets/media/waki-bg.png" alt="waki-taki personnel background">
+
+<script>
+    document.addEventListener('mousemove', e => {
+      const xAmnt = parseInt((e.pageX / window.innerWidth) * 360) + 180
+      document.querySelector('img.bg').style.filter = `hue-rotate(${xAmnt}deg)`
+    })
+</script>
